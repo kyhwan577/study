@@ -1,12 +1,12 @@
-from PySide2.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout
+from PySide2.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton
 
 
 app = QApplication([])
 widget = QWidget()
 widget.setWindowTitle("Company")
-label = QLabel("Add")
+btn = QPushButton('push')
 layout = QVBoxLayout(widget)
-layout.addWidget(label)
+layout.addWidget(btn)
 widget.show()
 
 app.exec_()
