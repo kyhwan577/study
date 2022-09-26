@@ -8,5 +8,4 @@ btn = QPushButton('push')
 layout = QVBoxLayout(widget)
 layout.addWidget(btn)
 widget.show()
-
 app.exec_()
